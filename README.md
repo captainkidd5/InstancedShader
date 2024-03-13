@@ -7,3 +7,7 @@ It's an incomplete example as much of the other code is fairly dispersed across 
 It includes support for up to 20 lights (specular/ambient) and fog.
 
 Fog is currently pretty scuffed so I strongly welcome pull requests to get it ironed out!
+
+
+Note that you will need to create a content pipeline extensions and use the code from InstancedModelProcessor.cs
+Then, when adding your assets in the content pipeline choose .FBX importer and the InstancedModelProcessor for the processor.
